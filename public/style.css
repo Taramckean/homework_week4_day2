@@ -1,0 +1,56 @@
+body {
+  color: white;
+  font-size:30px;
+  font-weight: bold;
+text-align: center;
+  text-transform: uppercase;
+ -webkit-text-stroke-width: 1px;
+ text-shadow: 3px 3px 3px black;
+  background-image: url("http://inspiredboy.com/uploads/201509/full/color-painted-delicious-pizza-background-vector-map-1-43f5bcea999ac57bf74707c53bb37104.jpg");
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+div {
+  background-color: white;
+  opacity:0.85;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid SpringGreen;
+    margin: 0;
+    text-align: center;
+}
+.button {
+    background-color: SpringGreen;
+    border: 0px;
+    border-radius: 0.5;
+    color: white;
+    opacity:1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+    -webkit-transition-duration: 0.4s;
+  transition-duration: 0.2s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+    background-color: HotPinK;
+    color: white;
+}
+a {
+    color: SpringGreen;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+     background-color: yellow;
+}
